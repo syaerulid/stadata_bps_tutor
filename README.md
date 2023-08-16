@@ -3,7 +3,7 @@
 
 Apa itu **STADATA?**
 <br><br>
-STADATA adalah Python Package yang dibuat oleh tim Badan Pusat Statistik untuk memudahkan (data analyst, researcher, atau pengguna biasa seperti kita) memperoleh data yang disediakan oleh BPS.
+STADATA adalah Python Package yang dibuat oleh tim Badan Pusat Statistik untuk memudahkan <br>(data analyst, researcher, atau pengguna biasa seperti kita) memperoleh data yang disediakan oleh BPS.
 <br><br>
 **1.** Daftarkan identitas kita di website API BPS<br>
 https://webapi.bps.go.id/developer/<br>
