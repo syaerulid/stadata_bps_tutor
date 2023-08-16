@@ -21,13 +21,46 @@ untuk library umum dari stadata ada empat yaitu :<br>
 <br><br>
 ![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/7b6d16dc-2eab-4f04-b2e2-edcbdf823ab6)
 
-3. Cek Domain dari Daerah yang ingin kita ambil datanya
+**3.** Cek Domain dari Daerah yang ingin kita ambil datanya
 
-Melalui stadata, list_domain adalah suatu method yang me-return  
-(domain_id, domain_name, domain_url, dan juga level)
-dari data yang ada di BPS. bisa dibilang ini adalah Induknya.
+Melalui stadata, list_domain adalah suatu method yang me-return<br>
+**(domain_id, domain_name, domain_url, dan juga level)**
+dari data yang ada di BPS.<br>
+bisa dibilang ini adalah **Induknya.**
 
 selain itu ada beberapa method lain:
 <br><br>
+3.1 list_statictable(params)<br>
+3.2 list_dynamictable(params)<br>
+3.3 list_publication(params)<br>
+3.4 list_pressrelease(params)<br>
+<br>
+selain method list ada juga method view, untuk melihat preview data yang ingin kita ketahui<br>
+contoh:<br>
+3.5 view_statictable(params)<br><br>
 
-lanjut nanti
+**4.** Contoh penggunaan statictable
+Disini kita ingin melihat semua statictable yang ada di Jawa Tengah<br>
+atau mungkin Semarang?<br>
+atau mungkin ingin memfilter data 3 tahun terakhir?<br>
+**bisa!**<br>
+**list semua statictable di Jateng**
+![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/2de32781-640b-4b12-bd7e-8c2bc719693d)
+<br>
+**list semua statictable di Semarang**
+![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/f486ce54-24f8-455b-946b-7c12770cb139)
+<br>
+**Filter data Statictable Jateng dalam 3 Tahun Terakhir**
+![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/166f1880-b443-4a5c-9e59-eb5253728be1)
+<br><br>
+**5**. Misalnya kita tertarik nih sama data Telur dan Unggas,<br>
+nah gimana cara dapetin datanya???<br>
+
+Kita menuju ke website:<br>
+
+
+
+
+
+
+
