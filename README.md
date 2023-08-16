@@ -28,3 +28,6 @@ Melalui stadata, list_domain adalah suatu method yang me-return
 dari data yang ada di BPS. bisa dibilang ini adalah Induknya.
 
 selain itu ada beberapa method lain:
+<br><br>
+
+lanjut nanti
