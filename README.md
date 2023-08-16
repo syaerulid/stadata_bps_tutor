@@ -43,20 +43,78 @@ contoh:<br>
 Disini kita ingin melihat semua statictable yang ada di Jawa Tengah<br>
 atau mungkin Semarang?<br>
 atau mungkin ingin memfilter data 3 tahun terakhir?<br>
-**bisa!**<br>
-**list semua statictable di Jateng**
-![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/2de32781-640b-4b12-bd7e-8c2bc719693d)
-<br>
-**list semua statictable di Semarang**
-![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/f486ce54-24f8-455b-946b-7c12770cb139)
-<br>
-**Filter data Statictable Jateng dalam 3 Tahun Terakhir**
-![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/166f1880-b443-4a5c-9e59-eb5253728be1)
+**bisa!**<br><br>
+<p align="center"><strong>4.1 List of All Static Tables in Jateng</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/2de32781-640b-4b12-bd7e-8c2bc719693d" alt="Image">
+</p>
 <br><br>
+<p align="center"><strong>4.2 List of All Static Tables in Semarang</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/f486ce54-24f8-455b-946b-7c12770cb139" alt="Image">
+</p>
+<p align="center"><strong>4.3 Filter Data from Static Tables in Jateng for the Last 3 Years</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/166f1880-b443-4a5c-9e59-eb5253728be1" alt="Image">
+</p>
+
 **5**. Misalnya kita tertarik nih sama data Telur dan Unggas,<br>
 nah gimana cara dapetin datanya???<br>
-
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/401a5cdd-100c-4d3c-a4be-144709879d8a" alt="Image">
+</p>
 Kita menuju ke website:<br>
+https://webapi.bps.go.id/documentation/#statictable_1
+<br><br>
+<p align="center"><img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/1012a325-1b1a-4a15-a450-5b76f38835b1" alt="Image"></p>
+<details>
+  <summary>5.1 Domain (Area Domain)</summary>
+  <p>Domain adalah nomer domain dari daerah yang ingin Anda telusuri.</p>
+</details>
+<details>
+  <summary>5.2 Model (Metode yang Digunakan)</summary>
+  <p>Model merujuk pada metode yang Anda gunakan.</p>
+</details>
+<details>
+  <summary>5.3 Lang (Bahasa)</summary>
+  <p>Lang merujuk pada bahasa, baik Indonesia (ind) atau Inggris (eng).</p>
+</details>
+
+<details>
+  <summary>5.4 ID (Table ID)</summary>
+  <p>ID adalah tabel ID yang sedang Anda gunakan.</p>
+</details>
+
+<details>
+  <summary>5.5 Key (Kunci API)</summary>
+  <p>Key adalah kunci API Anda.</p>
+</details>
+<br>
+setelah itu kita akan diberikan link dari data yang kita butuhkan.<br>
+excel : "link"<br>
+copy link tersebut.
+<p align="center">Lihat gambar dibawah agar lebih jelas</p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/586b3cf0-ed8a-4d3a-abd1-6d33c35fee20" alt="Image">
+</p>
+
+**6.** masukan link tersebut kedalam sebuah variable (bebas, terserah kita)<br>
+check status response dari link tersebut<br>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/ee71499e-f3e8-4006-acf7-b4700dbdeb2e" alt="Image">
+</p>
+pastikan **response status code adalah 200**<br>
+bukan seperti dibawah ini<br>
+404 : not found<br>
+403 : forbidden<br>
+500 : Internal Server Error<br>
+setelah itu download file tersebut kedalam local<br>
+
+**7.** Load file yang ada di local tadi dalam bentuk dataframe menggunakan pandas
+terlihat bahwa file masih acak2an dan kotor, serta nama kolom tidak jelas, setelah ini lakukan data cleaning sederhana
+
+
+
 
 
 
