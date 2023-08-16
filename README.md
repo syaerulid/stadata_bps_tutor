@@ -103,19 +103,53 @@ check status response dari link tersebut<br>
 <p align="center">
   <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/ee71499e-f3e8-4006-acf7-b4700dbdeb2e" alt="Image">
 </p>
-pastikan **response status code adalah 200**<br>
+pastikan <strong>response status code adalah 200</strong><br>
 bukan seperti dibawah ini<br>
 404 : not found<br>
 403 : forbidden<br>
 500 : Internal Server Error<br>
-setelah itu download file tersebut kedalam local<br>
+setelah itu download file tersebut kedalam local<br><br>
 
 **7.** Load file yang ada di local tadi dalam bentuk dataframe menggunakan pandas
+![image](https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/6e9ea07c-a6ac-4a07-b4d6-bac403dda12e)
 terlihat bahwa file masih acak2an dan kotor, serta nama kolom tidak jelas, setelah ini lakukan data cleaning sederhana
 
-
-
-
+**8**. Data Cleaning (Opsional)
+<p align="center"><strong>8.1 Data Cleaning Mengganti Nama Kolom</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/a583ac37-3de4-4709-af59-5b7cb6c9bde1" alt="Image">
+</p>
+<p align="center"><strong>8.2 Drop Kolom yang tidak dibutuhkan</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/0189eba0-8959-46d3-a8e7-4cc026971a67" alt="Image">
+</p>
+<p align="center"><strong>8.3 Bedakan Data menjadi data kabupaten dan data kota</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/9c54e1fe-6268-4882-961f-82087c11b834" alt="Image">
+</p>
+<p align="center"><strong>8.4 Ganti Nama Kolom Kabupaten menjadi Kota, untuk data kota</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/6cc0ddaa-160f-48ca-97bc-abc68de969a8" alt="Image">
+</p>
+<p align="center"><strong>8.5 Data sudah bersih</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/0ef61aa1-7777-4858-bd10-a17b881c54e3" alt="Image">
+</p>
+<br>
+**9**. Buat analisa kita
+<br>
+sebagai contoh, ini visualisasi yang terbentuk dari data BPS yang sudah di cleaning<br>
+<p align="center"><strong>Data Produksi Ayam Kampung</strong></p>
+<p align="center">
+  <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/96879e9e-613b-44e7-b59c-78ff03f9f919" alt="Image">
+</p>
+Semoga bermanfaat buat teman-teman <strong>data analyst, scientist, researcher atau bahkan sekedar pengguna yang  penasaran xd</strong><br>
+<br><br>
+<p align="center"><strong>Special Thanks to BPS Indonesia dan Tim yang menyusun STADATA</strong></p>
+<br><br>
+Official Links to <strong>STADATA</strong>:
+<br>
+https://github.com/bps-statistics/stadata
 
 
 
