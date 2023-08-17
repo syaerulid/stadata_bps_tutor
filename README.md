@@ -136,6 +136,7 @@ terlihat bahwa file masih acak2an dan kotor, serta nama kolom tidak jelas, setel
   <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/0ef61aa1-7777-4858-bd10-a17b881c54e3" alt="Image">
 </p>
 <br>
+
 **9**. Buat analisa kita
 <br>
 sebagai contoh, ini visualisasi yang terbentuk dari data BPS yang sudah di cleaning<br>
