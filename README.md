@@ -144,6 +144,9 @@ sebagai contoh, ini visualisasi yang terbentuk dari data BPS yang sudah di clean
 <p align="center">
   <img src="https://github.com/syaerulid/stadata_bps_tutor/assets/119069839/96879e9e-613b-44e7-b59c-78ff03f9f919" alt="Image">
 </p>
+
+**10**. Untuk proses pengambilan data yang lebih otomatis, silahkan ke data_automation pada repo ini.
+
 Semoga bermanfaat buat teman-teman <strong>data analyst, scientist, researcher atau bahkan sekedar pengguna yang  penasaran xd</strong><br>
 <br><br>
 <p align="center"><strong>Special Thanks to BPS Indonesia dan Tim yang menyusun STADATA</strong></p>
@@ -151,6 +154,7 @@ Semoga bermanfaat buat teman-teman <strong>data analyst, scientist, researcher a
 Official Links to <strong>STADATA</strong>:
 <br>
 https://github.com/bps-statistics/stadata
+
 
 
 
